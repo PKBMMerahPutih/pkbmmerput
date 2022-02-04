@@ -1,0 +1,234 @@
+body{
+    font-family:"monsterrat", 'segoe UI ', Tahoma, geneva, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: rgb(3, 73, 143);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    position: top;
+}
+.top-contact, .sosmed {
+    list-style: none;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: rgb(233, 236, 12);
+    margin-right: 10px;
+}
+
+
+ /* header */
+
+ header h1 {
+     color: rgb(3, 67, 151);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 50px;
+     position: center;
+ }
+
+ header h3 {
+     color: rgb(29, 29, 29);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 20px;
+ }
+
+ header img {
+     width: 200px;
+     margin-top: 20px;
+ }
+
+ header {
+     background-image: url('../img/b1.jpg');
+     background-position: center;
+     background-size: cover;
+     top: 20px;
+     background-attachment: fixed;
+ }
+
+ /* akhir header */
+
+ .pembungkus-searhbox {
+     display: flex;
+     align-items: center;
+ }
+
+ .btn.btn-utama {
+     background-color: rgb(2, 32, 116);
+     color: rgb(233, 236, 12);
+     text-transform: uppercase;
+     font-weight: 200;
+ }
+
+ /* css menu */
+
+ nav {
+     height: 60px;
+ }
+
+.navbar {
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    border-bottom: 5px solid #f2c808;
+}
+
+ .bg-biru {
+     background-color: #031c70!important;
+     color: white;
+     top: 1px;
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+     color: white;
+ }
+
+ .navbar-light .navbar-nav .active>.new-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link {
+     background-color: #031c70;
+     color: white;
+ }
+
+.active {
+     background-color:rgb(236, 213, 12);
+     color: rgb(3, 67, 151);
+ }
+
+ li.nav-item.active {
+     color: #e0e400;
+
+ }
+
+ .navbar-dark .navbar-nav .nav-link {
+     padding: 15PX 20PX;
+     display: inline-block;
+ }
+
+nav .dropdown-toggle {
+    background-color:  #031c70;
+}
+nav  .nav-item {
+    background-color:  #031c70;
+}
+
+
+/* css untuk slider hero area */
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 32, 116);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+/* Profil */
+.berita .col-sm-12 {
+    top: 30px;
+}
+
+.berita .col-sm-5 {
+    top: 40px;
+}
+
+
+/* akhir profil */
+
+/* galeri */
+.galeri .col-sm-12 {
+    top: 80px;
+}
+/* akhir galeri */
+
+/* footer */
+footer {
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(2, 32, 116);
+    padding-top: 30px;
+}
+
+footer p {
+    color: white;
+}
+footer p i {
+    color: rgb(255, 0, 0);
+}
+/* akhir footer */
+
+/* Visi misi */
+.visi .col-sm-12 {
+    top: 40px;
+}
+
+.visi .col-sm-5 {
+    top: 40px;
+}
+/* akhir visi misi */
+
+/* setruktur */
+.struktur .col-sm-12 {
+    top: 40px;
+}
+/* akhir struktur */
+
+/* program kerja */
+.pkw .col-sm-12 {
+    top: 30px;
+}
+
+.portofolio .col-sm-12 {
+    top: 10px;
+}
+
+.portofolio img {
+    margin-top: 10%;
+}
+
+.portofolio h2 {
+    margin-top: 50px;
+}
+/* akhir program kerja */
+
+/* alamat */
+.alamat .col-sm-12 {
+    top: 20px;
+}
+
+/* akhir alamat */
+
+/* kontak */
+/* akhir kontak */
+
+/* info */
+.info .col-sm-12 {
+    top: 20px;
+}
+
+.info .col-sm-5 {
+    top: 20px;
+}
+/* akhir info */
